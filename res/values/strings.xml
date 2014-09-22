@@ -1,34 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">BTCReceive</string>
-    <string name="service_name">BTCReceive Service</string>
+    <string name="app_name">myTREZOR Lite</string>
+    <string name="service_name">myTREZOR Lite Service</string>
     <string name="action_settings">Settings</string>
-    <string name="action_about">About BTCReceive</string>
+    <string name="action_about">About myTREZOR Lite</string>
     <string name="action_exit">Exit Application</string>
-    <string name="title_activity_lobby">BTCReceive</string>
-    <string name="lobby_starting">BTCReceive Starting &#8230;</string>
+    <string name="title_activity_lobby">myTREZOR Lite</string>
+    <string name="lobby_starting">myTREZOR Lite Starting &#8230;</string>
     <string name="title_activity_scan_xpub">Scan Account XPUB</string>
     <string name="scan_xpub_directions"><![CDATA[
-Scan an account XPUB QR code from a wallet.
+1. Go to myTREZOR.com website\n
+\n2. Select your TREZOR device\n
+\n3. Click on Advanced details\n
+\n4. Scan XPUB QR code of the desired account
     ]]></string>
     <string name="scan_xpub_scanfail">Scan of XPUB QR code failed</string>
     <string name="button_scan_xpub">Scan XPUB QR Code</string>
     <string name="scan_xpub_wait_setup">Setting up scanned account</string>
     <string name="title_activity_rescan">Rescan Blockchain</string>
     <string name="rescan_full">Full Rescan (EXPENSIVE!)</string>
-    <string name="rescan_epoch">Rescan from BTCReceive Epoch</string>
+    <string name="rescan_epoch">Rescan from myTREZOR Lite Epoch</string>
     <string name="rescan_directions"><![CDATA[
-An epoch rescan starts from the date that BTCReceive first became
+An epoch rescan starts from the date that myTREZOR first became
 available; it\'s almost always what you want.\n
 \nFull rescans are much more expensive and should only be used if
 you need to scan for transactions somehow created prior to
-using BTCReceive.
+using myTREZOR Lite.
     ]]></string>
     <string name="rescan_rescan">Rescan</string>
     <string name="rescan_cancel">Cancel</string>
     <string name="base_error_ok">OK</string>
-    <string name="sync_state_title">Setting Up BTCReceive</string>
+    <string name="sync_state_title">Setting Up myTREZOR Lite</string>
     <string name="sync_title">Sync Progress</string>
     <string name="sync_percent_label">Percent Complete</string>
     <string name="sync_blocks_left_label">Blocks Left</string>
@@ -55,7 +58,7 @@ Rescanning the blockchain again.  It can take a while
 to fully recover all of your address activity.
     ]]></string>
     <string name="sync_abort">Abort and Exit</string>
-    <string name="title_activity_main">BTCReceive</string>
+    <string name="title_activity_main">myTREZOR Lite</string>
     <string name="title_activity_view_account">View Account</string>
     <string name="tab_receive">Receive</string>
     <string name="tab_transactions">Transactions</string>
@@ -107,7 +110,7 @@ This transaction is really large; it will take a while to process.\n
     <string name="address_send_key_title">Send private key &#8230;</string>
     <string name="address_send_key_subject">Bitcoin Key</string>
     <string name="network_status_setup">Wallet Initializing</string>
-    <string name="network_status_wallet">Setting up BTCReceive</string>
+    <string name="network_status_wallet">Setting up myTREZOR Lite</string>
     <string name="network_status_keysadd">Setting up Addresses</string>
     <string name="network_status_peering">Connecting to Peers</string>
     <string name="network_status_sync">Network Syncing, %1$d%% Done</string>
@@ -116,7 +119,7 @@ This transaction is really large; it will take a while to process.\n
     <string name="network_status_error">Network Error</string>
     <string name="network_status_unknown">Network Status Unknown</string>
 
-    <string name="title_activity_settings">BTCReceive Settings</string>
+    <string name="title_activity_settings">myTREZOR Lite Settings</string>
 
     <string name="settings_confirm_ok">OK</string>
     <string name="settings_confirm_cancel">Cancel</string>
@@ -199,15 +202,15 @@ This transaction is really large; it will take a while to process.\n
 
     <string name="send_logs_mail_intent_chooser">Send Logs with…</string>
 
-    <string name="pref_about">About BTCReceive</string>
+    <string name="pref_about">About myTREZOR Lite</string>
 
     <string name="pref_rescan_title">Confirm Rescan</string>
     <string name="pref_rescan_confirm">Are you sure you want to rescan?</string>
     <string name="pref_rescan_yes">Rescan</string>
     <string name="pref_rescan_no">Cancel</string>
 
-    <string name="wallet_service_label">BTCReceive</string>
-    <string name="wallet_service_started">BTCReceive Service Started</string>
+    <string name="wallet_service_label">myTREZOR Lite</string>
+    <string name="wallet_service_started">myTREZOR Lite Service Started</string>
     <string name="wallet_service_info">Touch to open application</string>
     <string name="wallet_service_note_sent_title">%1$s Sent</string>
     <string name="wallet_service_note_sent_msg">%1$s %2$s sent</string>
@@ -225,11 +228,12 @@ This transaction is really large; it will take a while to process.\n
     <string name="app_units_btc">BTC</string>
     <string name="app_units_mbtc">mBTC</string>
 
-    <string name="title_activity_about">About BTCReceive</string>
-    <string name="about_contents">BTCReceive\n
+    <string name="title_activity_about">About myTREZOR Lite</string>
+    <string name="about_contents">myTREZOR Lite\n
 \nVersion: 0.1.0 (03-Apr-2014)\n
-\nSource:  <a href="https://github.com/ksedgwic/BTCReceive">https://github.com/ksedgwic/BTCReceive</a>\n
-\nAuthor:  Ken Sedgwick <a href="mailto:ken@bonsai.com">&lt;ken@bonsai.com&gt;</a>\n
+\nSource:
+\n<a href="https://github.com/trezor/mytrezor-lite-android">https://github.com/trezor/mytrezor-lite-android</a>\n
+\nmyTREZOR Lite is based on BTCReceive by Ken Sedgwick <a href="mailto:ken@bonsai.com">&lt;ken@bonsai.com&gt;</a>\n
 \nBTCReceive is made possible by:\n
 \t<a href="https://code.google.com/p/bitcoinj">bitcoinj</a>\n
 \t<a href="https://github.com/schildbach/bitcoin-wallet">bitcoin-wallet</a>\n
