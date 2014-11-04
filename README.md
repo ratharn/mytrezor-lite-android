@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/trezor/mytrezor-lite-android/mytrezor/res/drawable-mdpi/ic_launcher.png) myTREZOR Lite for Android
+![](https://raw.githubusercontent.com/trezor/mytrezor-lite-android/mytrezor/app/src/main/res/drawable-mdpi/ic_launcher.png) myTREZOR Lite for Android
 ============================
 
 This application allows you to accept Bitcoin payments which will appear

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">myTREZOR Lite</string>
+    <string name="service_name">myTREZOR Lite Service</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About myTREZOR Lite</string>
+    <string name="action_exit">Exit Application</string>
+    <string name="title_activity_lobby">myTREZOR Lite</string>
+    <string name="lobby_starting">myTREZOR Lite Starting &#8230;</string>
+    <string name="title_activity_scan_xpub">Scan Account XPUB</string>
+    <string name="scan_xpub_directions"><![CDATA[
+1. Go to myTREZOR.com website\n
+\n2. Select your TREZOR device\n
+\n3. Click on Advanced details\n
+\n4. Scan XPUB QR code of the desired account
+    ]]></string>
+    <string name="scan_xpub_scanfail">Scan of XPUB QR code failed</string>
+    <string name="button_scan_xpub">Scan XPUB QR Code</string>
+    <string name="scan_xpub_wait_setup">Setting up scanned account</string>
+    <string name="title_activity_rescan">Rescan Blockchain</string>
+    <string name="rescan_full">Full Rescan (EXPENSIVE!)</string>
+    <string name="rescan_epoch">Rescan from myTREZOR Lite Epoch</string>
+    <string name="rescan_directions"><![CDATA[
+An epoch rescan starts from the date that myTREZOR first became
+available; it\'s almost always what you want.\n
+\nFull rescans are much more expensive and should only be used if
+you need to scan for transactions somehow created prior to
+using myTREZOR Lite.
+    ]]></string>
+    <string name="rescan_rescan">Rescan</string>
+    <string name="rescan_cancel">Cancel</string>
+    <string name="base_error_ok">OK</string>
+    <string name="sync_state_title">Setting Up myTREZOR Lite</string>
+    <string name="sync_title">Sync Progress</string>
+    <string name="sync_percent_label">Percent Complete</string>
+    <string name="sync_blocks_left_label">Blocks Left</string>
+    <string name="sync_scan_date_label">Scan Date</string>
+    <string name="sync_scan_cmpl_label">Complete In</string>
+    <string name="sync_details_created"><![CDATA[
+Syncing with the blockchain for the first time.
+This will take a few minutes; subsequent syncs will be much faster.
+    ]]></string>
+    <string name="sync_details_restore"><![CDATA[
+Syncing with the blockchain for the first time.
+This will take a few minutes; subsequent syncs will be much faster.
+    ]]></string>
+    <string name="sync_details_startup"><![CDATA[
+Scanning the blockchain for recent transactions.
+    ]]></string>
+    <string name="sync_details_rescan"><![CDATA[
+Performing a rescan of the blockchain; this will
+take a while.
+    ]]></string>
+    <string name="sync_details_rerescan"><![CDATA[
+New used chain addresses were discovered in the previous scan.
+Rescanning the blockchain again.  It can take a while
+to fully recover all of your address activity.
+    ]]></string>
+    <string name="sync_abort">Abort and Exit</string>
+    <string name="title_activity_main">myTREZOR Lite</string>
+    <string name="title_activity_view_account">View Account</string>
+    <string name="tab_receive">Receive</string>
+    <string name="tab_transactions">Transactions</string>
+    <string name="tab_account">Account</string>
+    <string name="receive_fiat_label">USD</string>
+    <string name="account_name_label">Account:</string>
+    <string name="account_name_hint">Account Name</string>
+    <string name="account_name_edit">Edit</string>
+    <string name="account_name_submit">Submit</string>
+    <string name="account_receive_label">Receiving Addresses</string>
+    <string name="account_change_label">Change Addresses</string>
+    <string name="address_header_path">Path</string>
+    <string name="address_header_addr">Address</string>
+    <string name="address_header_ntrans">T</string>
+    <string name="address_header_fiat">USD</string>
+
+    <string name="title_activity_view_transactions">View Transactions</string>
+    <string name="transaction_account_label">Account:</string>
+    <string name="transaction_header_date">Date</string>
+    <string name="transaction_header_fiat">USD</string>
+    <string name="transaction_header_confidence">Cnf</string>
+    <string name="title_activity_view_transaction">View Transaction</string>
+    <string name="transaction_waittitle">Please Wait</string>
+    <string name="transaction_waitprocess"><![CDATA[
+This transaction is really large; it will take a while to process.\n
+    ]]></string>
+    <string name="transaction_hash_label">Hash</string>
+    <string name="transaction_date_label">Date</string>
+    <string name="transaction_confidence_label">Confidence</string>
+    <string name="transaction_inputs_label">Inputs</string>
+    <string name="transaction_outputs_label">Outputs</string>
+    <string name="transaction_fee_label">Miner\'s Fee</string>
+    <string name="transputs_header_account">Account</string>
+    <string name="transputs_header_chain"></string>
+    <string name="transputs_header_path">Path</string>
+    <string name="transputs_header_addr">Address</string>
+    <string name="transputs_total">Total</string>
+    <string name="title_activity_view_address">View Address</string>
+    <string name="button_send_request">Send Request &#8230;</string>
+    <string name="button_send_address">Send Address &#8230;</string>
+    <string name="button_send_key">Send Private Key &#8230;</string>
+    <string name="button_blockchain">blockchain.info</string>
+    <string name="fiat_label">USD</string>
+    <string name="eq_label">=</string>
+    <string name="address_send_request_title">Send request &#8230;</string>
+    <string name="address_send_request_subject">Bitcoin Request</string>
+    <string name="address_send_address_title">Send address &#8230;</string>
+    <string name="address_send_address_subject">Bitcoin Address</string>
+    <string name="address_send_key_title">Send private key &#8230;</string>
+    <string name="address_send_key_subject">Bitcoin Key</string>
+    <string name="network_status_setup">Wallet Initializing</string>
+    <string name="network_status_wallet">Setting up myTREZOR Lite</string>
+    <string name="network_status_keysadd">Setting up Addresses</string>
+    <string name="network_status_peering">Connecting to Peers</string>
+    <string name="network_status_sync">Network Syncing, %1$d%% Done</string>
+    <string name="network_status_ready">Network Ready</string>
+    <string name="network_status_shutdown">Shutting Down</string>
+    <string name="network_status_error">Network Error</string>
+    <string name="network_status_unknown">Network Status Unknown</string>
+
+    <string name="title_activity_settings">myTREZOR Lite Settings</string>
+
+    <string name="settings_confirm_ok">OK</string>
+    <string name="settings_confirm_cancel">Cancel</string>
+
+    <string name="pref_btc_units">BTC Units</string>
+    <string name="pref_btc_units_default">MBTC</string>
+
+    <string-array name="pref_btc_units_entries">
+      <item>mBTC</item>
+      <item>BTC</item>
+    </string-array>
+
+    <string-array name="pref_btc_units_values">
+      <item>MBTC</item>
+      <item>BTC</item>
+    </string-array>
+
+    <string name="pref_fiat_rate_source">Fiat Rate Source</string>
+    <string name="pref_fiat_rate_sources_default">COINDESKUSD</string>
+
+    <string-array name="pref_fiat_rate_sources_entries">
+      <item>BitStamp USD</item>
+      <item>CoinDesk BPI AUD</item>
+      <item>CoinDesk BPI CAD</item>
+      <item>CoinDesk BPI CHF</item>
+      <item>CoinDesk BPI CNY</item>
+      <item>CoinDesk BPI CZK</item>
+      <item>CoinDesk BPI DKK</item>
+      <item>CoinDesk BPI EUR</item>
+      <item>CoinDesk BPI GBP</item>
+      <item>CoinDesk BPI HUF</item>
+      <item>CoinDesk BPI ILS</item>
+      <item>CoinDesk BPI INR</item>
+      <item>CoinDesk BPI JPY</item>
+      <item>CoinDesk BPI LTL</item>
+      <item>CoinDesk BPI MXN</item>
+      <item>CoinDesk BPI NOK</item>
+      <item>CoinDesk BPI NZD</item>
+      <item>CoinDesk BPI PLN</item>
+      <item>CoinDesk BPI RUB</item>
+      <item>CoinDesk BPI SEK</item>
+      <item>CoinDesk BPI SGD</item>
+      <item>CoinDesk BPI THB</item>
+      <item>CoinDesk BPI TRY</item>
+      <item>CoinDesk BPI USD</item>
+    </string-array>
+
+    <string-array name="pref_fiat_rate_sources_values">
+      <item>BITSTAMPUSD</item>
+      <item>COINDESKAUD</item>
+      <item>COINDESKCAD</item>
+      <item>COINDESKCHF</item>
+      <item>COINDESKCNY</item>
+      <item>COINDESKCZK</item>
+      <item>COINDESKDKK</item>
+      <item>COINDESKEUR</item>
+      <item>COINDESKGBP</item>
+      <item>COINDESKHUF</item>
+      <item>COINDESKILS</item>
+      <item>COINDESKINR</item>
+      <item>COINDESKJPY</item>
+      <item>COINDESKLTL</item>
+      <item>COINDESKMXN</item>
+      <item>COINDESKNOK</item>
+      <item>COINDESKNZD</item>
+      <item>COINDESKPLN</item>
+      <item>COINDESKRUB</item>
+      <item>COINDESKSEK</item>
+      <item>COINDESKSGD</item>
+      <item>COINDESKTHB</item>
+      <item>COINDESKTRY</item>
+      <item>COINDESKUSD</item>
+    </string-array>
+
+    <string name="pref_rescan_blockchain">Rescan Blockchain &#8230;</string>
+    <string name="pref_rescan_summary">Rescan Blockchain</string>
+
+    <string name="pref_send_logs">Send Logs &#8230;</string>
+    <string name="pref_send_logs_summary">Send Logs to the Developer</string>
+
+    <string name="send_logs_mail_intent_chooser">Send Logs with…</string>
+
+    <string name="pref_about">About myTREZOR Lite</string>
+
+    <string name="pref_rescan_title">Confirm Rescan</string>
+    <string name="pref_rescan_confirm">Are you sure you want to rescan?</string>
+    <string name="pref_rescan_yes">Rescan</string>
+    <string name="pref_rescan_no">Cancel</string>
+
+    <string name="wallet_service_label">myTREZOR Lite</string>
+    <string name="wallet_service_started">myTREZOR Lite Service Started</string>
+    <string name="wallet_service_info">Touch to open application</string>
+    <string name="wallet_service_note_sent_title">%1$s Sent</string>
+    <string name="wallet_service_note_sent_msg">%1$s %2$s sent</string>
+    <string name="wallet_service_note_rcvd_title">%1$s Received</string>
+    <string name="wallet_service_note_rcvd_msg">%1$s %2$s received</string>
+    <string name="wallet_service_note_scnf_title">Send Confirmed</string>
+    <string name="wallet_service_note_scnf_msg">%1$s %2$s confirmed</string>
+    <string name="wallet_service_note_rcnf_title">Receive Confirmed</string>
+    <string name="wallet_service_note_rcnf_msg">%1$s %2$s confirmed</string>
+    <string name="wallet_service_note_rdead_title">Receive Dead</string>
+    <string name="wallet_service_note_rdead_msg">%1$s %2$s dead</string>
+    <string name="wallet_service_note_sdead_title">Send Dead</string>
+    <string name="wallet_service_note_sdead_msg">%1$s %2$s dead</string>
+
+    <string name="app_units_btc">BTC</string>
+    <string name="app_units_mbtc">mBTC</string>
+
+    <string name="title_activity_about">About myTREZOR Lite</string>
+    <string name="about_contents">myTREZOR Lite\n
+\nVersion: 0.1.0 (03-Apr-2014)\n
+\nSource:
+\n<a href="https://github.com/trezor/mytrezor-lite-android">https://github.com/trezor/mytrezor-lite-android</a>\n
+\nmyTREZOR Lite is based on BTCReceive by Ken Sedgwick <a href="mailto:ken@bonsai.com">&lt;ken@bonsai.com&gt;</a>\n
+\nBTCReceive is made possible by:\n
+\t<a href="https://code.google.com/p/bitcoinj">bitcoinj</a>\n
+\t<a href="https://github.com/schildbach/bitcoin-wallet">bitcoin-wallet</a>\n
+\t<a href="https://github.com/LivotovLabs/zxscanlib">ZXScanLib</a>\n
+\t<a href="https://blockchain.info">blockchain.info</a>\n
+\t<a href="https://www.bitstamp.net">Bitstamp</a>\n
+\nPowered by <a href="http://www.coindesk.com/price/">CoinDesk</a>\n
+\nDonate: <a href="bitcoin:14qJ7PAfKCBtcMHzQNerHwUtgt4HVSZFRL">14qJ7PAfKCBtcMHzQNerHwUtgt4HVSZFRL</a>\n
+\nCopyright &#169; 2013-2014 Bonsai Software, Inc.\nAll rights reserved.
+</string>
+</resources>
